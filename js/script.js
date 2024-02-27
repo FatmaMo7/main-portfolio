@@ -1,7 +1,7 @@
 
 let mixerPortofolio = mixitup(".box-container", {
   load: {
-    filter: ".home",
+      filter: '.home'
   },
   selectors: {
     target: ".list-card",
@@ -10,6 +10,7 @@ let mixerPortofolio = mixitup(".box-container", {
     duration: 300,
   },
 });
+
 const linkwork = document.querySelectorAll(".list-item");
 function activework() {
   linkwork.forEach((L) => L.classList.remove("active-list"));
@@ -30,11 +31,11 @@ tabs.forEach((tab) => {
       box.style.display = "none";
       if (box.dataset.box === e.target.dataset.tab) {
         box.style.display = "block";
-        box.style.animation = "scale 0.1s linear";
+        box.style.animation = "scale 0.5s linear";
       }
       if (e.target.dataset.tab === ".all") {
         box.style.display = "block";
-        box.style.animation = "scale 1s linear";
+        box.style.animation = "scale 0.5s linear";
       }
     });
   });
