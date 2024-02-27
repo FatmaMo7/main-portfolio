@@ -1,5 +1,8 @@
 
 let mixerPortofolio = mixitup(".box-container", {
+  load: {
+    filter: ".home",
+  },
   selectors: {
     target: ".list-card",
   },
@@ -7,7 +10,6 @@ let mixerPortofolio = mixitup(".box-container", {
     duration: 300,
   },
 });
-
 const linkwork = document.querySelectorAll(".list-item");
 function activework() {
   linkwork.forEach((L) => L.classList.remove("active-list"));
