@@ -239,7 +239,17 @@ body {
 .navbar .container-fluid .icon svg:hover {
   color: rgb(243, 231, 233);
 }
+.navbar .navbar-brand {
+  font-weight: bold;
+  color:#EA3967 ;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navbar .navbar-brand:hover{
+  
+  color:#FA5253 ;
 
+}
 /* end nav/
 
 
