@@ -279,8 +279,8 @@ body {
 .fa-facebook-f {
   color: #4267b2;
 }
-.fa-twitter {
-  color: #1da1f2;
+.fa-github {
+  color: #333;
 }
 .fa-google {
   color: #db4437;
@@ -552,6 +552,9 @@ body {
 }
 .contact2 svg {
   color: #8774ff;
+}
+.contact2 svg:hover {
+  color: #686674;
 }
 
 .contact2 .form {
